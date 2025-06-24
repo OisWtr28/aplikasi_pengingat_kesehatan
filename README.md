@@ -22,7 +22,7 @@ Aplikasi berbasis website sederhana untuk mencatat dan mengelola pengingat jadwa
 - folder_upload/ → menyimpan gambar
 - assets/style.css → tampilan halaman
 
-![halaman_login](halam_login.jpg)
+![halaman_login](halaman_login.jpg)
 
 ![Dashboard](dashboard.jpg)
 
