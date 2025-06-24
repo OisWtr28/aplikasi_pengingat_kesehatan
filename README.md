@@ -22,11 +22,11 @@ Aplikasi berbasis website sederhana untuk mencatat dan mengelola pengingat jadwa
 - folder_upload/ → menyimpan gambar
 - assets/style.css → tampilan halaman
 
-![Login](halam_login.jpg)
+![halam_login](halam_login.jpg)
 
 ![Dashboard](dashboard.jpg)
 
 ![from_tambah_pengingat](from_tambah_pengingat.jpg)
 
-[daftar_pengingat_kesehatan](daftar_pengingat_kesehatan.jpeg)
+![daftar_pengingat_kesehatan](daftar_pengingat_kesehatan.jpeg)
 
