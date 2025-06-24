@@ -23,6 +23,10 @@ Aplikasi berbasis website sederhana untuk mencatat dan mengelola pengingat jadwa
 - assets/style.css → tampilan halaman
 
 ![Login](halam_login.jpg)
+
 ![Dashboard](dashboard.jpg)
+
 ![from_tambah_pengingat](from_tambah_pengingat.jpg)
+
 [daftar_pengingat_kesehatan](daftar_pengingat_kesehatan.jpeg)
+
