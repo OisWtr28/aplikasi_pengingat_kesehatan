@@ -1,0 +1,201 @@
+/* ===== Reset & Base Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Kontainer Utama ===== */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Judul Halaman ===== */
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* ===== Tombol Navigasi Tengah ===== */
+.nav-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* ===== Tombol Modern ===== */
+.button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #1e40af;
+}
+
+.button.danger {
+    background-color: #ef4444;
+}
+
+.button.danger:hover {
+    background-color: #b91c1c;
+}
+
+/* ===== Form Elements ===== */
+input[type="text"],
+input[type="password"],
+input[type="datetime-local"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ===== Button Element (optional if not using <button>) ===== */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* ===== Kartu Pengingat ===== */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fefefe;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Judul Pengingat */
+.card h3 {
+    color: #1e3a8a;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Deskripsi dan waktu */
+.card .deskripsi {
+    color: #333;
+    font-size: 15px;
+}
+
+.card .waktu {
+    font-weight: bold;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Gambar Pengingat */
+.card img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Tombol Edit dan Hapus */
+.card .actions {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.card .actions a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.card .actions a.edit {
+    color: #2563eb;
+}
+
+.card .actions a.edit:hover {
+    color: #1e40af;
+}
+
+.card .actions a.delete {
+    color: #ef4444;
+}
+
+.card .actions a.delete:hover {
+    color: #b91c1c;
+}
+
+/* ===== Gambar Umum ===== */
+img {
+    border-radius: 6px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+/* ===== Responsive (Mobile Friendly) ===== */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .nav-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+}
